@@ -64,9 +64,9 @@ public class StartmenuPane extends MainApp {
 
 			//button creation
 			Button startbutton = new Button("Start");
-			Button germanbutton = new Button(""/*,germanView*/);
-			Button englishbutton = new Button(""/*,englishView*/);
-			Button frenchbutton = new Button(""/*,frenchView*/);
+			Button germanbutton = new Button("German"/*,germanView*/);
+			Button englishbutton = new Button("English"/*,englishView*/);
+			Button frenchbutton = new Button("French"/*,frenchView*/);
 
 			//buttons size
 			startbutton.setPrefSize(200,100);

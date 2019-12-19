@@ -26,12 +26,11 @@ public class QuizzGeneration extends MainApp {
 			char [] c = new char[1000000]; f.read(c);
 		    String s = new String(c); 
 		    String[] result = s.split(";|\n");
-			 /* 
-			 * 
-			 * for (int i = 0; i < result.length-1; i=i+7) { questions.add(new
-			 * Question(Integer.parseInt(result[i]), result[i+1], result[i+2], result[i+3],
-			 * result[i+4], result[i+5], result[i+6])); count++; } f.close();
- */				}
+			  
+			  for (int i = 0; i < result.length-1; i=i+7) { questions.add(new
+			  Question(Integer.parseInt(result[i]), result[i+1], result[i+2], result[i+3],
+			  result[i+4], result[i+5], result[i+6])); count++; } f.close();
+			}
 		catch (IOException e) {
 			System.err.println("Failure to read the file " + file + ".");
 			System.err.println(e.getMessage());
