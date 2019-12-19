@@ -1,6 +1,5 @@
 package view;
 
-
 import adress.MainApp;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -15,7 +14,6 @@ import javafx.stage.Stage;
 import util.QuizzGeneration;
 
 public class StartmenuPane extends MainApp {
-
 
 	public static void createStartmenuPane(Stage primaryStage) {
 		try {
