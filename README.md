@@ -96,7 +96,7 @@ US2:  Ich als Benutzer möchte mindestens eine Auswahl aus 30 Fragen haben, dami
 	Task: Klassen zur Generierung der Frage herstellen
 	Task: Randoom  Frage aus der Datenbank aussuchen
 	
-US3: Als Benutzer möchte ich bei jeder frage die richtige Antwort bekommen, damit ich jeder Zeit weiß was richtig ist
+US3: Als Benutzer möchte ich bei jeder Frage die richtige Antwort bekommen, damit ich jeder Zeit weiß was richtig ist
 	Task: überprüfen ob die Antwort korrekt ist
 	Task: Dem Spieler sagen ob Antwort richtig ist
 	Task: Bei jeder Frage die richtige Antwort rausgeben
@@ -244,8 +244,8 @@ answerA.setOnAction(new EventHandler<ActionEvent>() {
 		});
 
 ```
-Erklaerung: Programm Abschnitt mit den Event Handler von ein Knopf im Quizz. Welcher fuer die Beantwortung der Fragen unersetzlich ist
-// JUnit muss hier noch rein
+Erklaerung: Programm Abschnitt mit den Event Handler von ein Knopf im Quizz. Welcher fuer die Beantwortung der Fragen unersetzlich ist.
+Ins Sprint 3 wurden auch die JUnit Test geschrieben. Getestet sind die Klasse Question und die Methode zur Prüfung der Antwort.
 
 
 ## Klassendiagramm
